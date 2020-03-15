@@ -1,0 +1,13 @@
+,297,594,891,1188,1485,1782,2079,2376,2673,2970
+AVLTreeApp comparisons best,3,3,3,3,3,3,3,3,3,3
+AVLTreeApp comparisons worst,21,23,25,25,27,27,27,27,29,29
+AVLTreeApp comparisons average,15,17,18,19,19,20,20,20,20,20
+AVLTreeApp insertions best,18,18,22,22,22,24,26,26,24,28
+AVLTreeApp insertions worst,18,18,22,22,22,24,26,26,24,28
+AVLTreeApp insertions average,18,18,22,22,22,24,26,26,24,28
+BSTApp comparisons best,3,3,3,3,3,3,3,3,3,3
+BSTApp comparisons worst,39,45,45,51,53,47,53,47,51,49
+BSTApp comparisons average,19,24,23,25,27,26,25,25,25,26
+BSTApp insertions best,11,16,13,8,10,15,12,14,18,23
+BSTApp insertions worst,11,16,13,8,10,15,12,14,18,23
+BSTApp insertions average,11,16,13,8,10,15,12,14,18,23

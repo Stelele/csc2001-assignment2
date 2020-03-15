@@ -48,7 +48,7 @@ def queryDataSet(dataSetSize, apps):
     tempFileLocation = pathDir+ '/' + tempFile.split("/")[-1]
     terminalOutput = "../output/terminalOutput.txt"
 
-    subDataset = [r.choice(data) for j in range(dataSetSize)]
+    subDataset = [data[j] for j in range(dataSetSize)]
 
     dataComparisons = {app : [] for app in apps}
     dataInsertions = {app : [] for app in apps} 
