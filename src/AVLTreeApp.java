@@ -19,7 +19,9 @@ public class AVLTreeApp
 				BinaryTreeNode<LSData> found = tree.find(new LSData(key,""));
 
 				if(found != null)
-					System.out.println(found.data.getRegions() + "\n" + Integer.toString(tree.getComparisons()) +" comparisons");
+					System.out.println(found.data.getRegions() + "\n" +
+						       "Carried out " +	Integer.toString(tree.getComparisons()) + " comparisons\n" +
+							"Carried out " + Integer.toString(tree.getInsertions()) + " insertion comparisons");
 				else
 					System.out.println("Areas not found");
 			}
